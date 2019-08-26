@@ -17,4 +17,9 @@ public class JenkinsdemoApplication {
     public String Hello() {
         return "hello";
     }
+
+    @RequestMapping
+    public String Test() {
+        return "test";
+    }
 }
